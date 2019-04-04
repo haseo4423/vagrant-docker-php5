@@ -1,12 +1,6 @@
 # Vagrant-Docker-PHP5
 ローカル開発環境（PHP 5.6版）
 
-
-## 注意事項
-* SSL証明書は、プライベート認証局(`[project_root]/docker/01_proxy/openssl/ca/sample-dev.cacrt.pem`)から発行したものです。  
-  （ブラウザの警告を消すには、`キーチェーン`やブラウザに認証局の登録が必要）
-
-
 ## セットアップ
 1. 依存関係のあるソフトウェアをインストール
   * VirtualBox 5.2.20 以上
